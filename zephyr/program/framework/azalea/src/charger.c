@@ -31,7 +31,7 @@ DECLARE_DEFERRED(charger_chips_init_retry);
 
 static void charger_chips_init(void)
 {
-	/* Battery present need ADC function ready, so change the initail priority
+	/* Battery present need ADC function ready, so change the initial priority
 	 * after ADC
 	 */
 
